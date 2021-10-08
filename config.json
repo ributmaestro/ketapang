@@ -1,0 +1,25 @@
+{
+    "autosave": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": 5,
+    },
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "coin": null,
+            "algo": "cn/upx2",
+            "url": "cryptonight_upx.eu.mine.zergpool.com:4457",
+            "user": "DGMCNLTTCNBi7XWPta9LhoAfEdepKfKctC.up",
+            "pass": "c=DGB",
+            "socks5": "socks5://72.221.196.145:4145",
+            "tls": false,
+            "keepalive": true,
+            "nicehash": true
+        }
+    ]
+}
